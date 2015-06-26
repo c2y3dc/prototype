@@ -20,7 +20,7 @@ $(document).ready(function() {
     }
 
     if ($(window).width() < 769) {
-        $('.navbar-default').removeClass("sticky").removeClass("navbar-fixed-top").addClass("navbar-static-top");
+        $('.navbar-default').removeClass("sticky").removeClass("navbar-fixed-top").addClass("navbar-static-top").css("background-color", "rgba(256,256,256,256,0.8");
     }
 
     if ($(window).width() > 768) {
