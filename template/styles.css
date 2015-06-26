@@ -1,8 +1,12 @@
-body { padding-top: 50px; }
+body {
+    padding-top: 50px;
+}
+
 .container-fluid {
-  padding: 0;
+    padding: 0;
 }
 /* navbar */
+
 .navbar-default {
     background-color: inherit;
     border-color: transparent;
@@ -13,28 +17,32 @@ body { padding-top: 50px; }
     z-index: 10007;
     box-shadow: 0px 2px 3px 0.5px rgba(0, 0, 0, 0.2);
 }
+
 .navbar-brand {
-  float: left;
-  /*line-height: 100%;*/
-  /*height: 100%;*/
+    float: left;
+    /*line-height: 100%;*/
+    /*height: 100%;*/
 }
+
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
 }
+
 .navbar {
     text-align: center;
     font-size: 24px;
-    background-color: rgba(256,256,256,0.8);
+    background-color: rgba(256, 256, 256, 0.8);
     border: 0;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     top: 0;
     z-index: 20;
 }
+
 .navbar-wrapper > .container {
     padding-right: 0;
     padding-left: 0;
@@ -50,77 +58,90 @@ body { padding-top: 50px; }
 }
 
 .sticky {
-    /*position: fixed;*/
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+    text-transform: lowercase;
+    font-family: "Helvetica";
     font-size: 14px;
-    /*line-height: 100%;*/
+    font-weight: 500;
     width: 100%;
-    background: rgba(192,192,192, 0.8);
-    /*text-align: left;*/
+    background: rgba(192, 192, 192, 0.8);
+}
+
+#navbar > li {
+    color: rgb(144,238,144);  
 }
 
 .content-block-one {
-  padding: 30px;
-  margin-bottom: 0px;
-  color: inherit;
-  background-color: #eee;
+    padding: 30px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
 }
+
 .content-block-one h1,
 .content-block-one .h1 {
-  color: inherit;
+    color: inherit;
 }
-.content-block-one p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
-.content-block-one > hr {
-  border-top-color: #d5d5d5;
-}
-.container .content-block-one {
-  border-radius: 6px;
-}
-.content-block-one .container {
-  max-width: 100%;
 
+.content-block-one p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
 }
+
+.content-block-one > hr {
+    border-top-color: #d5d5d5;
+}
+
+.container .content-block-one {
+    border-radius: 6px;
+}
+
+.content-block-one .container {
+    max-width: 100%;
+}
+
 @media screen and (min-width: 768px) {
-  .content-block-one {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  .container .content-block-one {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-  .content-block-one h1,
-  .content-block-one .h1 {
-    font-size: 63px;
-  }
+    .content-block-one {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .container .content-block-one {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .content-block-one h1,
+    .content-block-one .h1 {
+        font-size: 63px;
+    }
 }
+
 .content-space-one {
-  padding: 0px;
-  margin-bottom: 0px;
-  color: white;
-  background: url(https://download.unsplash.com/photo-1428677361686-f9d23be145c9) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+    padding: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background: url(https://download.unsplash.com/photo-1428677361686-f9d23be145c9) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 .content-space-two {
-  padding: 0px;
-  margin-bottom: 0px;
-  color: white;
-  background: url(https://download.unsplash.com/photo-1430598825529-927d770c194f) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+    padding: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background: url(https://download.unsplash.com/photo-1430598825529-927d770c194f) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 .page-break {
     width: 50%;
     height: 3px;
