@@ -68,7 +68,7 @@ body {
 }
 
 #navbar > li {
-    color: rgb(144,238,144);  
+    color: rgb(144, 238, 144);
 }
 
 .content-block-one {
@@ -140,6 +140,10 @@ body {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.content {
+    padding: 150px 0;
 }
 
 .page-break {
