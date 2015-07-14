@@ -26,6 +26,8 @@ $(document).ready(function() {
     if ($(window).width() > 768) {
         $('.navbar-default').addClass('navbar-fixed-top');
     }
+
+    $('body').scrollspy();
 });
 
 });
